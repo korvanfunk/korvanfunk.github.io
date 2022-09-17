@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./styles.css"><meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Representing Color in CSS</title>
+</head>
+<body>
+  <h1>Representing Color in CSS</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>Method</th>
+        <th>Description</th>
+        <th>Syntax</th>
+        <th width="150px">Example</th>
+        <th>Notes</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Named</td>
+        <td>more than 140 colors</td>
+        <td></td>
+        <td> cornflowerblue</td>
+        <td>The color keywords all represent plain, solid colors without transparency</td>
+      </tr>
+      <tr>
+        <td>Hexadecimal</td>
+        <td>Hex is a number system that has 16 digits, 0 to 9 followed by “A” to “F”</td>
+        <td>Begin with # and specify values of red, blue, and green using hex numbers</td>
+        <td>#23F41A</td>
+        <td>Six-digit hex values with duplicate values for each RGB value can be shorted to 3 digits</td>
+      </tr>
+      <tr>
+        <td>RGB</td>
+        <td>RGB colors have one value each for red, blue, and green</td>
+        <td>rgb() with 3 values</td>
+        <td>rgb(7, 210, 50)</td>
+        <td>Values range from 0 to 255</td>
+      </tr>
+      <tr>
+        <td>HSL</td>
+        <td>HSL stands for hue (the color itself), saturation (intensity), and lightness (light/dark)</td>
+        <td>Hue ranges from 0 to 360 and saturation and lightness are both represented as percentages</td>
+        <td>hsl(200, 20%, 50%)</td>
+        <td></td>
+      </tr>
+<tr>
+        <td>Opacity</td>
+        <td>Can add opacity to color in RGB and HSL by adding a fourth value, A (alpha)</td>
+        <td>Represented as a number (from 0 to 1) or a percentage where 1 is 100% opacity</td>
+        <td>rgba(255, 255, 255, .5)</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
